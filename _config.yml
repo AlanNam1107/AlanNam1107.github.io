@@ -47,7 +47,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: alan_nam
+# disqus_username: alan_nam
 
 # Duoshuo settings
 # duoshuo_username: alan_nam
@@ -68,7 +68,7 @@ disqus_username: alan_nam
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "loser"
+sidebar-about-description: "Alan"
 sidebar-avatar: /img/author.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
