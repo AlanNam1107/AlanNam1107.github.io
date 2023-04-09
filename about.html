@@ -6,21 +6,21 @@ header-img: "img/about-bg.jpeg"
 ---
 
 <!-- Language Selector -->
-<select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="1" selected> 英语 English </option>
-    <option value="0"> 中文 Chinese </option>
+<select onchange="onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英语 English </option>
 </select>
 
 <!-- Chinese Version -->
 <div class="zh post-container">
     <blockquote>
         一名邮专生。
-        <email:964141846@qq.com></email:964141846@qq.com>
-    <!-- </blockquote>
+        email:964141846@qq.com
+        <!-- </blockquote>
     <br> -->
-    
 
-    <!-- <p style="text-align:right;">
+
+        <!-- <p style="text-align:right;">
         —— <a href="http://www.zhihu.com/question/19687065">李书航 － 什么是「共产中文腔调」？ </a>
     </p> -->
 
@@ -30,7 +30,7 @@ header-img: "img/about-bg.jpeg"
 <div class="en post-container">
     <blockquote>
         ALan Nam, BUPT undergraduate. Majoring in CS.
-    <!-- </blockquote>
+        <!-- </blockquote>
 
     <p>
         Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it.
@@ -50,11 +50,11 @@ header-img: "img/about-bg.jpeg"
 <script type="text/javascript">
     var $zh = document.querySelector(".zh");
     var $en = document.querySelector(".en");
-    function onLanChange(index){
-        if(index == 0){
+    function onLanChange(index) {
+        if (index == 0) {
             $zh.style.display = "block";
             $en.style.display = "none";
-        }else{
+        } else {
             $en.style.display = "block";
             $zh.style.display = "none";
         }
